@@ -1,0 +1,26 @@
+# GPQA Evaluation Framework Requirements
+
+# Core dependencies
+datasets>=2.14.0        # For loading GPQA from HuggingFace
+openai>=1.0.0          # For API calls (compatible with xAI API)
+requests>=2.31.0       # HTTP requests
+python-dotenv>=1.0.0   # Environment variable management
+
+# Data processing
+pandas>=2.0.0          # Data manipulation
+numpy>=1.24.0          # Numerical operations
+jsonlines>=3.1.0       # JSONL file handling
+
+# Visualization and analysis (optional)
+matplotlib>=3.7.0      # Plotting
+seaborn>=0.12.0       # Statistical visualizations
+
+# Utilities
+tqdm>=4.65.0          # Progress bars
+colorama>=0.4.6       # Colored terminal output
+rich>=13.0.0          # Rich terminal formatting
+
+# Development tools (optional)
+pytest>=7.4.0         # Testing
+black>=23.0.0         # Code formatting
+pylint>=2.17.0        # Linting
