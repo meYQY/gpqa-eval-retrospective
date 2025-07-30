@@ -193,8 +193,8 @@ DeepEval - 应用质量评测框架
               for metric in metrics:
                   score = metric.measure(test_case)
                   results.append(score)
-
-  **擅长场景**：
+  **擅长场景**
+：
   - RAG 系统评测（检索增强生成）
   - 聊天机器人质量评估
   - 内容安全检测
@@ -202,6 +202,7 @@ DeepEval - 应用质量评测框架
   - 强调应用质量而非学术准确率
 
   **典型评测集**：
+  
   - 自定义业务数据集
   - 客服对话数据
   - 产品问答数据
