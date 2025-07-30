@@ -1,30 +1,4 @@
 Grok4跑GPQA评测集
-# 项目结构
-
-grok4-gpqa-retrospective/
-├── scripts/                    # 预处理和工具脚本
-│   ├── preprocess_gpqa.py     # 数据预处理
-│   └── verify_config.py       # 环境验证
-├── core/                      # 核心评测代码
-│   ├── gpqa_test_resumable.py # 主评测程序（支持断点续传）
-│   ├── simple_gpqa_test.py    # 简化版评测程序
-│   ├── api_client.py          # API调用封装
-│   └── dataset_loader.py      # 数据加载器
-├── configs/                   # 配置文件
-│   └── config.py             # 统一配置
-├── monitors/                  # 监控工具
-│   ├── monitor_continuous.py  # Python监控脚本
-│   ├── continuous_monitor.sh  # Shell监控脚本
-│   └── simple_monitor.sh      # 简单监控脚本
-├── analysis/                  # 分析工具
-│   └── analyze_results.py    # 结果分析脚本
-├── data/                     # 数据目录
-│   └── gpqa_processed.json   # 预处理后的数据
-├── results/                  # 结果目录
-├── logs/                     # 日志目录
-└── docs/                     # 文档
-    └── Grok4&GPQA 复盘.md   # 本文档
-
 
 # 步骤概览
 ## Step1 从HuggingFace下载数据+数据预处理 将Benchmark格式化 （scripts/preprocess_gpqa.py）
